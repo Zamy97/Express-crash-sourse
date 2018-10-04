@@ -1,0 +1,19 @@
+{
+  "name": "express-crash-sourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamy97/Express-crash-sourse.git"
+  },
+  "author": "Aktar Zaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zamy97/Express-crash-sourse/issues"
+  },
+  "homepage": "https://github.com/Zamy97/Express-crash-sourse#readme"
+}
