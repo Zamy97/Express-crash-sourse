@@ -26,27 +26,12 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-var users = [
-    {
+var users ={
         id: 1,
         first_name: "Aktar",
         last_name: "Zaman",
         email: "Auz.zamy@gmail.com",
-    },
-    {
-        id: 2,
-        first_name: "Fariha",
-        last_name: "Zaman",
-        email: "FarihaZaman@gmail.com"
-
-    },
-    {
-        id: 3,
-        first_name: "Rahima",
-        last_name: "Mahmood",
-        email: "mhmd.rahima@gmail.com",
     }
-]
 
 
 
