@@ -26,11 +26,36 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+var users = [
+    {
+        id: 1,
+        first_name: "Aktar",
+        last_name: "Zaman",
+        email: "Auz.zamy@gmail.com",
+    },
+    {
+        id: 2,
+        first_name: "Fariha",
+        last_name: "Zaman",
+        email: "FarihaZaman@gmail.com"
+
+    },
+    {
+        id: 3,
+        first_name: "Rahima",
+        last_name: "Mahmood",
+        email: "mhmd.rahima@gmail.com",
+    }
+]
+
 
 
 app.get('/',function(req,res){
-    res.render('index');
-})
+    res.render('index', {
+        title: 'Customers',
+        users: 'users'
+    });
+});
 app.listen(5000, function(){
     console.log("server started on port 5000");
 })
