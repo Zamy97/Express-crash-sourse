@@ -2,7 +2,7 @@
   "name": "express-crash-sourse",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/Zamy97/Express-crash-sourse.git"
   },
-  "dependencies":{
-
-
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*"
   },
   "author": "Aktar Zaman",
   "license": "ISC",
