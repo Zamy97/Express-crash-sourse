@@ -11,8 +11,9 @@
     "url": "git+https://github.com/Zamy97/Express-crash-sourse.git"
   },
   "dependencies": {
-    "express": "*",
-    "body-parser": "*"
+    "body-parser": "*",
+    "ejs": "^2.6.1",
+    "express": "*"
   },
   "author": "Aktar Zaman",
   "license": "ISC",
